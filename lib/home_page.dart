@@ -1,3 +1,5 @@
+
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:sports/Screens/widgets/brief_description.dart';
@@ -93,6 +95,7 @@ class HomePage extends StatelessWidget {
                   ),
                   ThumbnailImage(
                       urlToImage: articles[pos].urlToImage.toString()),
+                      
                 ],
               ),
             ),
